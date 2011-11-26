@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342AD961147D6B5E0024FB40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD960147D6B5E0024FB40 /* UIKit.framework */; };
+		342AD963147D6B5E0024FB40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD962147D6B5E0024FB40 /* Foundation.framework */; };
+		342AD965147D6B5E0024FB40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD964147D6B5E0024FB40 /* CoreGraphics.framework */; };
+		342AD96B147D6B5E0024FB40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342AD969147D6B5E0024FB40 /* InfoPlist.strings */; };
+		342AD96D147D6B5E0024FB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD96C147D6B5E0024FB40 /* main.m */; };
+		342AD971147D6B5E0024FB40 /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD970147D6B5E0024FB40 /* CDAppDelegate.m */; };
+		342AD974147D6B5E0024FB40 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD973147D6B5E0024FB40 /* CDViewController.m */; };
+		342AD977147D6B5E0024FB40 /* CDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */; };
+		342AD97A147D6B5E0024FB40 /* CDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD978147D6B5E0024FB40 /* CDViewController_iPad.xib */; };
+		342AD98A147D6B7E0024FB40 /* Curve.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD981147D6B7E0024FB40 /* Curve.m */; };
+		342AD98B147D6B7E0024FB40 /* Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD983147D6B7E0024FB40 /* Ellipse.m */; };
+		342AD98C147D6B7E0024FB40 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD985147D6B7E0024FB40 /* Rectangle.m */; };
+		342AD98D147D6B7E0024FB40 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD987147D6B7E0024FB40 /* Text.m */; };
+		342AD98E147D6B7E0024FB40 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD989147D6B7E0024FB40 /* Tool.m */; };
+		342AD991147D6BAB0024FB40 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD990147D6BAB0024FB40 /* GameKit.framework */; };
+		342AD994147D6C350024FB40 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD993147D6C350024FB40 /* Canvas.m */; };
+		342AD99B147D74240024FB40 /* FreeHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD99A147D74240024FB40 /* FreeHand.m */; };
+		342AD9BE147EF41C0024FB40 /* ILColorPickerDualExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD9A2147EF41C0024FB40 /* ILColorPickerDualExampleController.xib */; };
+		342AD9C1147EF41C0024FB40 /* ILColorPickerDualExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9A9147EF41C0024FB40 /* ILColorPickerDualExampleController.m */; };
+		342AD9C3147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9AD147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.m */; };
+		342AD9C4147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9AF147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.m */; };
+		342AD9C5147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD9B0147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib */; };
+		342AD9C6147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9B2147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.m */; };
+		342AD9C7147EF41C0024FB40 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9B4147EF41C0024FB40 /* ILColorPickerView.m */; };
+		342AD9C8147EF41C0024FB40 /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9B6147EF41C0024FB40 /* ILHuePickerView.m */; };
+		342AD9C9147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9B8147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m */; };
+		342AD9CA147EF41C0024FB40 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9BA147EF41C0024FB40 /* ILView.m */; };
+		342AD9CC147EF41C0024FB40 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9BD147EF41C0024FB40 /* UIColor+GetHSB.m */; };
+		347BF039148030C200255398 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BF038148030C200255398 /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		342AD95C147D6B5E0024FB40 /* CollabDrawV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollabDrawV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342AD960147D6B5E0024FB40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		342AD962147D6B5E0024FB40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		342AD964147D6B5E0024FB40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		342AD968147D6B5E0024FB40 /* CollabDrawV2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollabDrawV2-Info.plist"; sourceTree = "<group>"; };
+		342AD96A147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		342AD96C147D6B5E0024FB40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342AD96E147D6B5E0024FB40 /* CollabDrawV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollabDrawV2-Prefix.pch"; sourceTree = "<group>"; };
+		342AD96F147D6B5E0024FB40 /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		342AD970147D6B5E0024FB40 /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		342AD972147D6B5E0024FB40 /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
+		342AD973147D6B5E0024FB40 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		342AD976147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPhone.xib; sourceTree = "<group>"; };
+		342AD979147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPad.xib; sourceTree = "<group>"; };
+		342AD981147D6B7E0024FB40 /* Curve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Curve.m; path = ../../CollabDraw/CollabDraw/Curve.m; sourceTree = "<group>"; };
+		342AD983147D6B7E0024FB40 /* Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ellipse.m; path = ../../CollabDraw/CollabDraw/Ellipse.m; sourceTree = "<group>"; };
+		342AD985147D6B7E0024FB40 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = ../../CollabDraw/CollabDraw/Rectangle.m; sourceTree = "<group>"; };
+		342AD987147D6B7E0024FB40 /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Text.m; path = ../../CollabDraw/CollabDraw/Text.m; sourceTree = "<group>"; };
+		342AD988147D6B7E0024FB40 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tool.h; path = ../../CollabDraw/CollabDraw/Tool.h; sourceTree = "<group>"; };
+		342AD989147D6B7E0024FB40 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tool.m; path = ../../CollabDraw/CollabDraw/Tool.m; sourceTree = "<group>"; };
+		342AD990147D6BAB0024FB40 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		342AD992147D6C350024FB40 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = ../Canvas.h; sourceTree = "<group>"; };
+		342AD993147D6C350024FB40 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Canvas.m; path = ../Canvas.m; sourceTree = "<group>"; };
+		342AD99A147D74240024FB40 /* FreeHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHand.m; sourceTree = "<group>"; };
+		342AD9A3147EF41C0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ILColorPickerDualExampleController.xib; sourceTree = "<group>"; };
+		342AD9A8147EF41C0024FB40 /* ILColorPickerDualExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerDualExampleController.h; sourceTree = "<group>"; };
+		342AD9A9147EF41C0024FB40 /* ILColorPickerDualExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerDualExampleController.m; sourceTree = "<group>"; };
+		342AD9AC147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerExampleAppDelegate.h; sourceTree = "<group>"; };
+		342AD9AD147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerExampleAppDelegate.m; sourceTree = "<group>"; };
+		342AD9AE147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerLayoutBottomExampleController.h; sourceTree = "<group>"; };
+		342AD9AF147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerLayoutBottomExampleController.m; sourceTree = "<group>"; };
+		342AD9B0147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILColorPickerLayoutBottomExampleController.xib; sourceTree = "<group>"; };
+		342AD9B1147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerLayoutRightExampleController.h; sourceTree = "<group>"; };
+		342AD9B2147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerLayoutRightExampleController.m; sourceTree = "<group>"; };
+		342AD9B3147EF41C0024FB40 /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerView.h; sourceTree = "<group>"; };
+		342AD9B4147EF41C0024FB40 /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerView.m; sourceTree = "<group>"; };
+		342AD9B5147EF41C0024FB40 /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILHuePickerView.h; sourceTree = "<group>"; };
+		342AD9B6147EF41C0024FB40 /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILHuePickerView.m; sourceTree = "<group>"; };
+		342AD9B7147EF41C0024FB40 /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		342AD9B8147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		342AD9B9147EF41C0024FB40 /* ILView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILView.h; sourceTree = "<group>"; };
+		342AD9BA147EF41C0024FB40 /* ILView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILView.m; sourceTree = "<group>"; };
+		342AD9BC147EF41C0024FB40 /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetHSB.h"; sourceTree = "<group>"; };
+		342AD9BD147EF41C0024FB40 /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetHSB.m"; sourceTree = "<group>"; };
+		347BF038148030C200255398 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342AD959147D6B5E0024FB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347BF039148030C200255398 /* Twitter.framework in Frameworks */,
+				342AD991147D6BAB0024FB40 /* GameKit.framework in Frameworks */,
+				342AD961147D6B5E0024FB40 /* UIKit.framework in Frameworks */,
+				342AD963147D6B5E0024FB40 /* Foundation.framework in Frameworks */,
+				342AD965147D6B5E0024FB40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342AD951147D6B5E0024FB40 = {
+			isa = PBXGroup;
+			children = (
+				342AD966147D6B5E0024FB40 /* CollabDrawV2 */,
+				342AD95F147D6B5E0024FB40 /* Frameworks */,
+				342AD95D147D6B5E0024FB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342AD95D147D6B5E0024FB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342AD95C147D6B5E0024FB40 /* CollabDrawV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342AD95F147D6B5E0024FB40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347BF038148030C200255398 /* Twitter.framework */,
+				342AD990147D6BAB0024FB40 /* GameKit.framework */,
+				342AD960147D6B5E0024FB40 /* UIKit.framework */,
+				342AD962147D6B5E0024FB40 /* Foundation.framework */,
+				342AD964147D6B5E0024FB40 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342AD966147D6B5E0024FB40 /* CollabDrawV2 */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9A0147EF3C60024FB40 /* OtherComponents */,
+				342AD995147D6C420024FB40 /* GUI */,
+				342AD98F147D6B840024FB40 /* Tools */,
+				342AD96F147D6B5E0024FB40 /* CDAppDelegate.h */,
+				342AD970147D6B5E0024FB40 /* CDAppDelegate.m */,
+				342AD972147D6B5E0024FB40 /* CDViewController.h */,
+				342AD973147D6B5E0024FB40 /* CDViewController.m */,
+				342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */,
+				342AD978147D6B5E0024FB40 /* CDViewController_iPad.xib */,
+				342AD967147D6B5E0024FB40 /* Supporting Files */,
+			);
+			path = CollabDrawV2;
+			sourceTree = "<group>";
+		};
+		342AD967147D6B5E0024FB40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342AD968147D6B5E0024FB40 /* CollabDrawV2-Info.plist */,
+				342AD969147D6B5E0024FB40 /* InfoPlist.strings */,
+				342AD96C147D6B5E0024FB40 /* main.m */,
+				342AD96E147D6B5E0024FB40 /* CollabDrawV2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		342AD98F147D6B840024FB40 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				342AD988147D6B7E0024FB40 /* Tool.h */,
+				342AD981147D6B7E0024FB40 /* Curve.m */,
+				342AD983147D6B7E0024FB40 /* Ellipse.m */,
+				342AD985147D6B7E0024FB40 /* Rectangle.m */,
+				342AD987147D6B7E0024FB40 /* Text.m */,
+				342AD989147D6B7E0024FB40 /* Tool.m */,
+				342AD99A147D74240024FB40 /* FreeHand.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		342AD995147D6C420024FB40 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				342AD992147D6C350024FB40 /* Canvas.h */,
+				342AD993147D6C350024FB40 /* Canvas.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		342AD9A0147EF3C60024FB40 /* OtherComponents */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9A1147EF41C0024FB40 /* ILColorPickerExample */,
+			);
+			name = OtherComponents;
+			sourceTree = "<group>";
+		};
+		342AD9A1147EF41C0024FB40 /* ILColorPickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9D3147F033B0024FB40 /* Controllers */,
+				342AD9AC147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.h */,
+				342AD9AD147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.m */,
+				342AD9D2147F031D0024FB40 /* Views */,
+				342AD9CD147F02DD0024FB40 /* Categories */,
+			);
+			path = ILColorPickerExample;
+			sourceTree = "<group>";
+		};
+		342AD9CD147F02DD0024FB40 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9BC147EF41C0024FB40 /* UIColor+GetHSB.h */,
+				342AD9BD147EF41C0024FB40 /* UIColor+GetHSB.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		342AD9D2147F031D0024FB40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9B3147EF41C0024FB40 /* ILColorPickerView.h */,
+				342AD9B4147EF41C0024FB40 /* ILColorPickerView.m */,
+				342AD9B5147EF41C0024FB40 /* ILHuePickerView.h */,
+				342AD9B6147EF41C0024FB40 /* ILHuePickerView.m */,
+				342AD9B7147EF41C0024FB40 /* ILSaturationBrightnessPickerView.h */,
+				342AD9B8147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m */,
+				342AD9B9147EF41C0024FB40 /* ILView.h */,
+				342AD9BA147EF41C0024FB40 /* ILView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		342AD9D3147F033B0024FB40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				342AD9A2147EF41C0024FB40 /* ILColorPickerDualExampleController.xib */,
+				342AD9A8147EF41C0024FB40 /* ILColorPickerDualExampleController.h */,
+				342AD9A9147EF41C0024FB40 /* ILColorPickerDualExampleController.m */,
+				342AD9AE147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.h */,
+				342AD9AF147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.m */,
+				342AD9B0147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib */,
+				342AD9B1147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.h */,
+				342AD9B2147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342AD95B147D6B5E0024FB40 /* CollabDrawV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342AD97D147D6B5E0024FB40 /* Build configuration list for PBXNativeTarget "CollabDrawV2" */;
+			buildPhases = (
+				342AD958147D6B5E0024FB40 /* Sources */,
+				342AD959147D6B5E0024FB40 /* Frameworks */,
+				342AD95A147D6B5E0024FB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollabDrawV2;
+			productName = CollabDrawV2;
+			productReference = 342AD95C147D6B5E0024FB40 /* CollabDrawV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342AD953147D6B5E0024FB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ITESM CCM";
+			};
+			buildConfigurationList = 342AD956147D6B5E0024FB40 /* Build configuration list for PBXProject "CollabDrawV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 342AD951147D6B5E0024FB40;
+			productRefGroup = 342AD95D147D6B5E0024FB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342AD95B147D6B5E0024FB40 /* CollabDrawV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342AD95A147D6B5E0024FB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AD96B147D6B5E0024FB40 /* InfoPlist.strings in Resources */,
+				342AD977147D6B5E0024FB40 /* CDViewController_iPhone.xib in Resources */,
+				342AD97A147D6B5E0024FB40 /* CDViewController_iPad.xib in Resources */,
+				342AD9BE147EF41C0024FB40 /* ILColorPickerDualExampleController.xib in Resources */,
+				342AD9C5147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342AD958147D6B5E0024FB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AD96D147D6B5E0024FB40 /* main.m in Sources */,
+				342AD971147D6B5E0024FB40 /* CDAppDelegate.m in Sources */,
+				342AD974147D6B5E0024FB40 /* CDViewController.m in Sources */,
+				342AD98A147D6B7E0024FB40 /* Curve.m in Sources */,
+				342AD98B147D6B7E0024FB40 /* Ellipse.m in Sources */,
+				342AD98C147D6B7E0024FB40 /* Rectangle.m in Sources */,
+				342AD98D147D6B7E0024FB40 /* Text.m in Sources */,
+				342AD98E147D6B7E0024FB40 /* Tool.m in Sources */,
+				342AD994147D6C350024FB40 /* Canvas.m in Sources */,
+				342AD99B147D74240024FB40 /* FreeHand.m in Sources */,
+				342AD9C1147EF41C0024FB40 /* ILColorPickerDualExampleController.m in Sources */,
+				342AD9C3147EF41C0024FB40 /* ILColorPickerExampleAppDelegate.m in Sources */,
+				342AD9C4147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.m in Sources */,
+				342AD9C6147EF41C0024FB40 /* ILColorPickerLayoutRightExampleController.m in Sources */,
+				342AD9C7147EF41C0024FB40 /* ILColorPickerView.m in Sources */,
+				342AD9C8147EF41C0024FB40 /* ILHuePickerView.m in Sources */,
+				342AD9C9147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m in Sources */,
+				342AD9CA147EF41C0024FB40 /* ILView.m in Sources */,
+				342AD9CC147EF41C0024FB40 /* UIColor+GetHSB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		342AD969147D6B5E0024FB40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342AD96A147D6B5E0024FB40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342AD976147D6B5E0024FB40 /* en */,
+			);
+			name = CDViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		342AD978147D6B5E0024FB40 /* CDViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342AD979147D6B5E0024FB40 /* en */,
+			);
+			name = CDViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		342AD9A2147EF41C0024FB40 /* ILColorPickerDualExampleController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342AD9A3147EF41C0024FB40 /* en */,
+			);
+			name = ILColorPickerDualExampleController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342AD97B147D6B5E0024FB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342AD97C147D6B5E0024FB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342AD97E147D6B5E0024FB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollabDrawV2/CollabDrawV2-Prefix.pch";
+				INFOPLIST_FILE = "CollabDrawV2/CollabDrawV2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		342AD97F147D6B5E0024FB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollabDrawV2/CollabDrawV2-Prefix.pch";
+				INFOPLIST_FILE = "CollabDrawV2/CollabDrawV2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342AD956147D6B5E0024FB40 /* Build configuration list for PBXProject "CollabDrawV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342AD97B147D6B5E0024FB40 /* Debug */,
+				342AD97C147D6B5E0024FB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342AD97D147D6B5E0024FB40 /* Build configuration list for PBXNativeTarget "CollabDrawV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342AD97E147D6B5E0024FB40 /* Debug */,
+				342AD97F147D6B5E0024FB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342AD953147D6B5E0024FB40 /* Project object */;
+}
