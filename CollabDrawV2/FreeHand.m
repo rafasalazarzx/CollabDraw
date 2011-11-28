@@ -31,4 +31,21 @@
     return self;
 }
 
+- (NSString*) description
+{
+    return @"Mano alzada";
+}
+
+- (id) initWithCoder:(NSCoder*)decoder
+{
+    if (self = [super initWithCoder:decoder])
+        self.puntos = [decoder decodeObjectForKey:@"puntos"];
+    return self;
+}
+
+- (void) encodeWithCoder:(NSCoder*)encoder {
+    [super encodeWithCoder:encoder];
+    [encoder encodeObject:puntos forKey:@"puntos"];
+}
+
 @end
