@@ -22,6 +22,7 @@
     IBOutlet UIScrollView *menuScrollView;
     IBOutlet UISegmentedControl *toolButtons;
     IBOutlet UISegmentedControl *fontButtons;
+    IBOutlet UISegmentedControl *lineStyleButtons;
     IBOutlet UILabel *excentricidadTextoLabel;
     IBOutlet UILabel *fuenteLabel;
     IBOutlet UITextField *texto;
@@ -44,7 +45,8 @@
 @property (retain) UILabel *fuenteLabel;
 @property (retain) UITextField *texto;
 @property (retain) UISegmentedControl *pseudoTabBar;
-@property (nonatomic, retain) UIAcceleration *acceleration;
+@property (retain) UISegmentedControl *lineStyleButtons;
+@property (retain) UIAcceleration *acceleration;
 
 - (IBAction)strokeAlphaChange:(id)sender;
 - (IBAction)strokeWidthChange:(id)sender;
@@ -54,11 +56,15 @@
 - (IBAction)fillColorChange:(id)sender;
 - (IBAction)toolChange:(id)sender;
 - (IBAction)fontChange:(id)sender;
+- (IBAction)lineStyleChange:(id)sender;
 - (IBAction)textChange:(id)sender;
 - (IBAction)pseudoTabChange:(id)sender;
 - (IBAction)clearCanvas:(id)sender;
 - (IBAction)saveCanvas:(id)sender;
 - (IBAction)tweetCanvas:(id)sender;
+- (IBAction)hostNewSession:(id)sender;
+- (IBAction)joinSession:(id)sender;
+- (IBAction)historyPopover:(id)sender;
 
 - (void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
 - (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
