@@ -5,7 +5,7 @@
 //  Created by Rafael Castro Salazar on 27/11/11.
 //  Copyright (c) 2011 ITESM CCM. All rights reserved.
 //
-//  Fuente: http://www.makebetterthings.com/
+//  Fuentes: http://www.makebetterthings.com/ http://iphonedevelopertips.com/core-services/getting-the-iphone-user-name.html
 //
 
 #import <Foundation/Foundation.h>
@@ -18,5 +18,6 @@
 @interface MACaddress : NSObject
 
 + (NSString *)getMacAddress;
++ (NSString *)getUserName;
 
 @end

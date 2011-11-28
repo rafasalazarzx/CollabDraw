@@ -11,8 +11,13 @@
 
 @implementation MACaddress
 
+static NSString *deviceMacAddress;
+static NSString *deviceUserName;
+
 + (NSString *)getMacAddress
 {
+    if( deviceMacAddress == NULL )
+    {
     int                 mgmtInfoBase[6];
     char                *msgBuffer = NULL;
     size_t              length;
@@ -69,13 +74,20 @@
     // Read from char array into a string object, into traditional Mac address format
     NSString *macAddressString = [NSString stringWithFormat:@"%02X:%02X:%02X:%02X:%02X:%02X",
                                   macAddress[0], macAddress[1], macAddress[2],
-                                  macAddress[3], macAddress[4], macAddress[5]];
-    NSLog(@"Mac Address: %@", macAddressString);
-    
+                                  macAddress[3], macAddress[4], macAddress[5]];    
     // Release the buffer memory
     free(msgBuffer);
     
-    return macAddressString;    
+    deviceMacAddress = [macAddressString retain];
+    }
+    return deviceMacAddress;
+}
+
++ (NSString *)getUserName
+{
+    if( deviceUserName == NULL )
+        deviceUserName = [[[UIDevice currentDevice] name] retain];
+    return deviceUserName;
 }
 
 @end
