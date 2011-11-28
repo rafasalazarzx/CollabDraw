@@ -10,10 +10,8 @@
 		342AD961147D6B5E0024FB40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD960147D6B5E0024FB40 /* UIKit.framework */; };
 		342AD963147D6B5E0024FB40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD962147D6B5E0024FB40 /* Foundation.framework */; };
 		342AD965147D6B5E0024FB40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AD964147D6B5E0024FB40 /* CoreGraphics.framework */; };
-		342AD96B147D6B5E0024FB40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342AD969147D6B5E0024FB40 /* InfoPlist.strings */; };
 		342AD96D147D6B5E0024FB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD96C147D6B5E0024FB40 /* main.m */; };
 		342AD971147D6B5E0024FB40 /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD970147D6B5E0024FB40 /* CDAppDelegate.m */; };
-		342AD974147D6B5E0024FB40 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD973147D6B5E0024FB40 /* CDViewController.m */; };
 		342AD977147D6B5E0024FB40 /* CDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */; };
 		342AD97A147D6B5E0024FB40 /* CDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AD978147D6B5E0024FB40 /* CDViewController_iPad.xib */; };
 		342AD98A147D6B7E0024FB40 /* Curve.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD981147D6B7E0024FB40 /* Curve.m */; };
@@ -35,7 +33,12 @@
 		342AD9C9147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9B8147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m */; };
 		342AD9CA147EF41C0024FB40 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9BA147EF41C0024FB40 /* ILView.m */; };
 		342AD9CC147EF41C0024FB40 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AD9BD147EF41C0024FB40 /* UIColor+GetHSB.m */; };
-		347BF039148030C200255398 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BF038148030C200255398 /* Twitter.framework */; };
+		347BF039148030C200255398 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BF038148030C200255398 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3484D60E1483577900B69096 /* HistoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484D60D1483577900B69096 /* HistoryTable.m */; };
+		3484D6161483638300B69096 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484D6141483638300B69096 /* HistoryCell.m */; };
+		3484D6171483638300B69096 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3484D6151483638300B69096 /* HistoryCell.xib */; };
+		3484D6201483969600B69096 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3484D6221483969600B69096 /* CDViewController.m */; };
+		34A0B4F9148229DE00BBC88D /* MACaddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0B4F8148229DE00BBC88D /* MACaddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,13 +47,11 @@
 		342AD962147D6B5E0024FB40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		342AD964147D6B5E0024FB40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		342AD968147D6B5E0024FB40 /* CollabDrawV2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollabDrawV2-Info.plist"; sourceTree = "<group>"; };
-		342AD96A147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		342AD96C147D6B5E0024FB40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		342AD96E147D6B5E0024FB40 /* CollabDrawV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollabDrawV2-Prefix.pch"; sourceTree = "<group>"; };
 		342AD96F147D6B5E0024FB40 /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
 		342AD970147D6B5E0024FB40 /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
 		342AD972147D6B5E0024FB40 /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
-		342AD973147D6B5E0024FB40 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
 		342AD976147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPhone.xib; sourceTree = "<group>"; };
 		342AD979147D6B5E0024FB40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPad.xib; sourceTree = "<group>"; };
 		342AD981147D6B7E0024FB40 /* Curve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Curve.m; path = ../../CollabDraw/CollabDraw/Curve.m; sourceTree = "<group>"; };
@@ -84,6 +85,25 @@
 		342AD9BC147EF41C0024FB40 /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetHSB.h"; sourceTree = "<group>"; };
 		342AD9BD147EF41C0024FB40 /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetHSB.m"; sourceTree = "<group>"; };
 		347BF038148030C200255398 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3484D60C1483577900B69096 /* HistoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTable.h; sourceTree = "<group>"; };
+		3484D60D1483577900B69096 /* HistoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTable.m; sourceTree = "<group>"; };
+		3484D6131483638200B69096 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		3484D6141483638300B69096 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		3484D6151483638300B69096 /* HistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		3484D6181483867F00B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/ILColorPickerExample/pt.lproj/ILColorPickerDualExampleController.xib; sourceTree = "<absolute>"; };
+		3484D6191483867F00B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/pt.lproj/CDViewController_iPhone.xib; sourceTree = "<absolute>"; };
+		3484D61B1483867F00B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/pt.lproj/CDViewController_iPad.xib; sourceTree = "<absolute>"; };
+		3484D61C1483868900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/ILColorPickerExample/es.lproj/ILColorPickerDualExampleController.xib; sourceTree = "<absolute>"; };
+		3484D61D1483868900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/es.lproj/CDViewController_iPhone.xib; sourceTree = "<absolute>"; };
+		3484D61F1483868900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/es.lproj/CDViewController_iPad.xib; sourceTree = "<absolute>"; };
+		3484D6211483969600B69096 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/CDViewController.m; sourceTree = "<group>"; };
+		3484D623148396A900B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = pt; path = pt.lproj/CDViewController.m; sourceTree = "<group>"; };
+		3484D624148396A900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = es; path = es.lproj/CDViewController.m; sourceTree = "<group>"; };
+		3484D62814839BE000B69096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfopList.strings; sourceTree = "<group>"; };
+		3484D62A14839BF400B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfopList.strings; sourceTree = "<group>"; };
+		3484D62B14839BF400B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfopList.strings; sourceTree = "<group>"; };
+		34A0B4F7148229DE00BBC88D /* MACaddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACaddress.h; sourceTree = "<group>"; };
+		34A0B4F8148229DE00BBC88D /* MACaddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACaddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +160,7 @@
 				342AD96F147D6B5E0024FB40 /* CDAppDelegate.h */,
 				342AD970147D6B5E0024FB40 /* CDAppDelegate.m */,
 				342AD972147D6B5E0024FB40 /* CDViewController.h */,
-				342AD973147D6B5E0024FB40 /* CDViewController.m */,
+				3484D6221483969600B69096 /* CDViewController.m */,
 				342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */,
 				342AD978147D6B5E0024FB40 /* CDViewController_iPad.xib */,
 				342AD967147D6B5E0024FB40 /* Supporting Files */,
@@ -152,9 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				342AD968147D6B5E0024FB40 /* CollabDrawV2-Info.plist */,
-				342AD969147D6B5E0024FB40 /* InfoPlist.strings */,
 				342AD96C147D6B5E0024FB40 /* main.m */,
 				342AD96E147D6B5E0024FB40 /* CollabDrawV2-Prefix.pch */,
+				3484D62914839BE000B69096 /* InfopList.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,6 +198,11 @@
 			children = (
 				342AD992147D6C350024FB40 /* Canvas.h */,
 				342AD993147D6C350024FB40 /* Canvas.m */,
+				3484D60C1483577900B69096 /* HistoryTable.h */,
+				3484D60D1483577900B69096 /* HistoryTable.m */,
+				3484D6131483638200B69096 /* HistoryCell.h */,
+				3484D6141483638300B69096 /* HistoryCell.m */,
+				3484D6151483638300B69096 /* HistoryCell.xib */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -185,6 +210,7 @@
 		342AD9A0147EF3C60024FB40 /* OtherComponents */ = {
 			isa = PBXGroup;
 			children = (
+				34A0B4F3148228A200BBC88D /* MACaddr */,
 				342AD9A1147EF41C0024FB40 /* ILColorPickerExample */,
 			);
 			name = OtherComponents;
@@ -241,6 +267,15 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		34A0B4F3148228A200BBC88D /* MACaddr */ = {
+			isa = PBXGroup;
+			children = (
+				34A0B4F7148229DE00BBC88D /* MACaddress.h */,
+				34A0B4F8148229DE00BBC88D /* MACaddress.m */,
+			);
+			name = MACaddr;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,6 +311,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				pt,
+				es,
 			);
 			mainGroup = 342AD951147D6B5E0024FB40;
 			productRefGroup = 342AD95D147D6B5E0024FB40 /* Products */;
@@ -292,11 +329,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342AD96B147D6B5E0024FB40 /* InfoPlist.strings in Resources */,
 				342AD977147D6B5E0024FB40 /* CDViewController_iPhone.xib in Resources */,
 				342AD97A147D6B5E0024FB40 /* CDViewController_iPad.xib in Resources */,
 				342AD9BE147EF41C0024FB40 /* ILColorPickerDualExampleController.xib in Resources */,
 				342AD9C5147EF41C0024FB40 /* ILColorPickerLayoutBottomExampleController.xib in Resources */,
+				3484D6171483638300B69096 /* HistoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +346,7 @@
 			files = (
 				342AD96D147D6B5E0024FB40 /* main.m in Sources */,
 				342AD971147D6B5E0024FB40 /* CDAppDelegate.m in Sources */,
-				342AD974147D6B5E0024FB40 /* CDViewController.m in Sources */,
+				3484D6201483969600B69096 /* CDViewController.m in Sources */,
 				342AD98A147D6B7E0024FB40 /* Curve.m in Sources */,
 				342AD98B147D6B7E0024FB40 /* Ellipse.m in Sources */,
 				342AD98C147D6B7E0024FB40 /* Rectangle.m in Sources */,
@@ -326,24 +363,21 @@
 				342AD9C9147EF41C0024FB40 /* ILSaturationBrightnessPickerView.m in Sources */,
 				342AD9CA147EF41C0024FB40 /* ILView.m in Sources */,
 				342AD9CC147EF41C0024FB40 /* UIColor+GetHSB.m in Sources */,
+				34A0B4F9148229DE00BBC88D /* MACaddress.m in Sources */,
+				3484D60E1483577900B69096 /* HistoryTable.m in Sources */,
+				3484D6161483638300B69096 /* HistoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		342AD969147D6B5E0024FB40 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				342AD96A147D6B5E0024FB40 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		342AD975147D6B5E0024FB40 /* CDViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				342AD976147D6B5E0024FB40 /* en */,
+				3484D6191483867F00B69096 /* pt */,
+				3484D61D1483868900B69096 /* es */,
 			);
 			name = CDViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -352,6 +386,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				342AD979147D6B5E0024FB40 /* en */,
+				3484D61B1483867F00B69096 /* pt */,
+				3484D61F1483868900B69096 /* es */,
 			);
 			name = CDViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -360,8 +396,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				342AD9A3147EF41C0024FB40 /* en */,
+				3484D6181483867F00B69096 /* pt */,
+				3484D61C1483868900B69096 /* es */,
 			);
 			name = ILColorPickerDualExampleController.xib;
+			sourceTree = "<group>";
+		};
+		3484D6221483969600B69096 /* CDViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3484D6211483969600B69096 /* en */,
+				3484D623148396A900B69096 /* pt */,
+				3484D624148396A900B69096 /* es */,
+			);
+			name = CDViewController.m;
+			sourceTree = "<group>";
+		};
+		3484D62914839BE000B69096 /* InfopList.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3484D62814839BE000B69096 /* en */,
+				3484D62A14839BF400B69096 /* pt */,
+				3484D62B14839BF400B69096 /* es */,
+			);
+			name = InfopList.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
