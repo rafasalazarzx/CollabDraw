@@ -64,7 +64,7 @@
 							<object class="IBUILabel" id="809064494">
 								<reference key="NSNextResponder" ref="143819879"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{8, 53}, {198, 21}}</string>
+								<string key="NSFrame">{{8, 53}, {292, 21}}</string>
 								<reference key="NSSuperview" ref="143819879"/>
 								<reference key="NSNextKeyView" ref="459693956"/>
 								<string key="NSReuseIdentifierKey">_NS:345</string>
@@ -73,7 +73,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Drawing tools</string>
+								<string key="IBUIText">Ferramentas de desenho</string>
 								<object class="NSColor" key="IBUITextColor" id="904528572">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -105,7 +105,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Tool settings</string>
+								<string key="IBUIText">Configurações de ferramenta</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -125,7 +125,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Stroke</string>
+								<string key="IBUIText">Linha</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -183,7 +183,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Thickness:</string>
+								<string key="IBUIText">Espessura:</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -206,11 +206,11 @@
 								<int key="IBNumberOfSegments">5</int>
 								<int key="IBSelectedSegmentIndex">0</int>
 								<array key="IBSegmentTitles">
-									<string>FreeHand</string>
-									<string>Curve</string>
-									<string>Ellipse</string>
-									<string>Rectangle</string>
-									<string>Text</string>
+									<string>Pulso</string>
+									<string>Curva</string>
+									<string>Elipse</string>
+									<string>Retângulo</string>
+									<string>Texto</string>
 								</array>
 								<array class="NSMutableArray" key="IBSegmentWidths">
 									<real value="0.0"/>
@@ -317,7 +317,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Fill</string>
+								<string key="IBUIText">Enchimento</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -390,7 +390,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Excentricity:</string>
+								<string key="IBUIText">Excentricidade:</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -415,7 +415,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Font:</string>
+								<string key="IBUIText">Letra:</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -448,7 +448,7 @@
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<string key="IBUIText">Lorem Ipsum</string>
 								<int key="IBUIBorderStyle">3</int>
-								<string key="IBUIPlaceholder">Text</string>
+								<string key="IBUIPlaceholder">Texto</string>
 								<object class="NSColor" key="IBUITextColor">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MAA</bytes>
@@ -547,7 +547,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">New Drawing</string>
+								<string key="IBUIText">Novo Desenho</string>
 								<reference key="IBUITextColor" ref="1535577"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -577,7 +577,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">Canvas</string>
+								<string key="IBUIText">Lona</string>
 								<reference key="IBUITextColor" ref="904528572"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -597,7 +597,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">1</int>
-								<string key="IBUINormalTitle">Clear Canvas</string>
+								<string key="IBUINormalTitle">Limpar Lona</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1535577"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -626,7 +626,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">1</int>
-								<string key="IBUINormalTitle">Save Drawing</string>
+								<string key="IBUINormalTitle">Salvar Desenho</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1535577"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -648,7 +648,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">1</int>
-								<string key="IBUINormalTitle">Tweet Drawing</string>
+								<string key="IBUINormalTitle">Compartilhar no twitter</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1535577"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -671,10 +671,10 @@
 								<int key="IBNumberOfSegments">4</int>
 								<int key="IBSelectedSegmentIndex">0</int>
 								<array key="IBSegmentTitles">
-									<string>Straight</string>
-									<string>Dashed</string>
-									<string>Dotted</string>
-									<string>Dash-Dot</string>
+									<string>Reta</string>
+									<string>Trecejada</string>
+									<string>Pontilhada</string>
+									<string>Traço-Ponto</string>
 								</array>
 								<array class="NSMutableArray" key="IBSegmentWidths">
 									<real value="0.0"/>
@@ -717,7 +717,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">1</int>
-								<string key="IBUINormalTitle">Create collaborative session</string>
+								<string key="IBUINormalTitle">Criar Sessão de Colaboração</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1535577"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -739,7 +739,7 @@
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">1</int>
-								<string key="IBUINormalTitle">Join collaborative session</string>
+								<string key="IBUINormalTitle">Participar numa sessão</string>
 								<reference key="IBUIHighlightedTitleColor" ref="1535577"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -779,9 +779,9 @@
 						<int key="IBNumberOfSegments">3</int>
 						<int key="IBSelectedSegmentIndex">0</int>
 						<array key="IBSegmentTitles">
-							<string>Canvas</string>
-							<string>Options</string>
-							<string>History</string>
+							<string>Lona</string>
+							<string>Configurações</string>
+							<string>Histórico</string>
 						</array>
 						<array class="NSMutableArray" key="IBSegmentWidths">
 							<real value="0.0"/>
@@ -1336,11 +1336,11 @@
 				<string key="30.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="32.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<integer value="0" key="32.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
+				<integer value="3" key="32.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="33.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="35.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="59.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<integer value="1" key="59.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
+				<integer value="2" key="59.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="66.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="67.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1351,7 +1351,7 @@
 				<string key="75.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="75.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="79.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<integer value="2" key="79.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
+				<integer value="3" key="79.IUISegmentedControlInspectorSelectedSegmentMetadataKey"/>
 				<string key="82.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
@@ -1361,7 +1361,194 @@
 			<nil key="sourceID"/>
 			<int key="maxID">85</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">CDViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="clearCanvas:">id</string>
+						<string key="excentricityChange:">id</string>
+						<string key="fillAlphaChange:">id</string>
+						<string key="fillColorChange:">id</string>
+						<string key="fontChange:">id</string>
+						<string key="historyPopover:">id</string>
+						<string key="hostNewSession:">id</string>
+						<string key="joinSession:">id</string>
+						<string key="lineStyleChange:">id</string>
+						<string key="pseudoTabChange:">id</string>
+						<string key="saveCanvas:">id</string>
+						<string key="strokeAlphaChange:">id</string>
+						<string key="strokeColorChange:">id</string>
+						<string key="strokeWidthChange:">id</string>
+						<string key="textChange:">id</string>
+						<string key="toolChange:">id</string>
+						<string key="tweetCanvas:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="clearCanvas:">
+							<string key="name">clearCanvas:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="excentricityChange:">
+							<string key="name">excentricityChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="fillAlphaChange:">
+							<string key="name">fillAlphaChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="fillColorChange:">
+							<string key="name">fillColorChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="fontChange:">
+							<string key="name">fontChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="historyPopover:">
+							<string key="name">historyPopover:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="hostNewSession:">
+							<string key="name">hostNewSession:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="joinSession:">
+							<string key="name">joinSession:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="lineStyleChange:">
+							<string key="name">lineStyleChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="pseudoTabChange:">
+							<string key="name">pseudoTabChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="saveCanvas:">
+							<string key="name">saveCanvas:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="strokeAlphaChange:">
+							<string key="name">strokeAlphaChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="strokeColorChange:">
+							<string key="name">strokeColorChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="strokeWidthChange:">
+							<string key="name">strokeWidthChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="textChange:">
+							<string key="name">textChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toolChange:">
+							<string key="name">toolChange:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="tweetCanvas:">
+							<string key="name">tweetCanvas:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="excentricidadTextoLabel">UILabel</string>
+						<string key="excentricitySlider">UISlider</string>
+						<string key="fillAlphaSlider">UISlider</string>
+						<string key="fillColorButton">UIButton</string>
+						<string key="fontButtons">UISegmentedControl</string>
+						<string key="fuenteLabel">UILabel</string>
+						<string key="lineStyleButtons">UISegmentedControl</string>
+						<string key="menuScrollView">UIScrollView</string>
+						<string key="pseudoTabBar">UISegmentedControl</string>
+						<string key="strokeAlphaSlider">UISlider</string>
+						<string key="strokeColorButton">UIButton</string>
+						<string key="strokeWidthSlider">UISlider</string>
+						<string key="texto">UITextField</string>
+						<string key="theCanvas">Canvas</string>
+						<string key="toolButtons">UISegmentedControl</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="excentricidadTextoLabel">
+							<string key="name">excentricidadTextoLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="excentricitySlider">
+							<string key="name">excentricitySlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fillAlphaSlider">
+							<string key="name">fillAlphaSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fillColorButton">
+							<string key="name">fillColorButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fontButtons">
+							<string key="name">fontButtons</string>
+							<string key="candidateClassName">UISegmentedControl</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fuenteLabel">
+							<string key="name">fuenteLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="lineStyleButtons">
+							<string key="name">lineStyleButtons</string>
+							<string key="candidateClassName">UISegmentedControl</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="menuScrollView">
+							<string key="name">menuScrollView</string>
+							<string key="candidateClassName">UIScrollView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="pseudoTabBar">
+							<string key="name">pseudoTabBar</string>
+							<string key="candidateClassName">UISegmentedControl</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="strokeAlphaSlider">
+							<string key="name">strokeAlphaSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="strokeColorButton">
+							<string key="name">strokeColorButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="strokeWidthSlider">
+							<string key="name">strokeWidthSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="texto">
+							<string key="name">texto</string>
+							<string key="candidateClassName">UITextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="theCanvas">
+							<string key="name">theCanvas</string>
+							<string key="candidateClassName">Canvas</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="toolButtons">
+							<string key="name">toolButtons</string>
+							<string key="candidateClassName">UISegmentedControl</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/CDViewController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">Canvas</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/Canvas.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
