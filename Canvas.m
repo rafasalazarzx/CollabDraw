@@ -23,14 +23,16 @@
 @synthesize selectedTool;
 @synthesize font;
 @synthesize text;
-@synthesize lastAdded;
+@synthesize lineStyle;
+@synthesize historyIndex;
+@synthesize undoAvailable;
 
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
     if ( self.objetos == NULL )
     {
-        self.objetos = [NSMutableDictionary new];
+        self.objetos = [NSMutableArray new];
         self.excentricity = 0;
         self.strokeWidth = 1;
         self.strokeAlpha = 1;
@@ -40,12 +42,15 @@
         self.selectedTool = 0;
         self.font = @"Helvetica";
         self.text = @"Lorem Ipsum";
+        self.historyIndex = -1;
+        self.undoAvailable = NO;
     }
     
-    for (NSDate *key in [self.objetos allKeys]) {
-		Rectangle *tmp = (Rectangle *)[self.objetos objectForKey:key];
-        [tmp draw];
-	}
+    if(historyIndex <0)
+        for (Tool *tmp in self.objetos) [tmp draw];
+    else
+        for (int i=0; i<=historyIndex; i++)
+            [[objetos objectAtIndex:i] draw];
     
     if ( tempTool != NULL )
         [tempTool draw];
@@ -77,6 +82,8 @@
     tempTool.excentricity = self.excentricity;
     tempTool.strokeColor = self.strokeColor;
     tempTool.fillColor = self.fillColor;
+    tempTool.lineStyle = self.lineStyle;
+    historyIndex = -1;
     [self setNeedsDisplay];
 }
 
@@ -109,19 +116,18 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    [objetos setObject:tempTool forKey:tempTool.creationDate];
-    self.lastAdded = tempTool.creationDate;
+    [self.objetos addObject:tempTool];
     tempTool = NULL;
+    undoAvailable = YES;
     [self setNeedsDisplay];
 }
 
 - (void)undo
 {
-    if(self.lastAdded != NULL)
+    if(undoAvailable)
     {
-        [objetos removeObjectForKey:self.lastAdded];
-        [lastAdded release];
-        lastAdded = NULL;
+        [objetos removeLastObject];
+        undoAvailable = NO;
         [self setNeedsDisplay];
     }
 }
@@ -130,6 +136,8 @@
 {
     [objetos removeAllObjects];
     tempTool = NULL;
+    undoAvailable = NO;
+    historyIndex = -1;
     [self setNeedsDisplay];
 }
 

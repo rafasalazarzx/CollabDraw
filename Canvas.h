@@ -11,9 +11,10 @@
 
 @interface Canvas : UIView
 {
-    NSMutableDictionary *objetos;
+    NSMutableArray *objetos;
     Tool *tempTool;
     NSInteger selectedTool; //0: FreeHand, 1: Curve, 2: Ellipse, 3: Rectangle, 4: Text
+    NSInteger lineStyle;
     // Tool Options
     CGFloat excentricity;
     NSInteger x, y;
@@ -26,10 +27,11 @@
     UIColor *fillColor;
     NSString *font;
     NSString *text;
-    NSDate *lastAdded;
+    NSInteger historyIndex;
+    BOOL undoAvailable;
 }
 
-@property (retain) NSMutableDictionary *objetos;
+@property (retain) NSMutableArray *objetos;
 @property (retain) Tool *tempTool;
 @property CGFloat excentricity;
 @property CGFloat strokeWidth;
@@ -40,7 +42,9 @@
 @property NSInteger selectedTool;
 @property (retain) NSString *font;
 @property (retain) NSString *text;
-@property (retain) NSDate *lastAdded;
+@property NSInteger lineStyle;
+@property NSInteger historyIndex;
+@property BOOL undoAvailable;
 
 - (void) undo;
 - (void) reset;
