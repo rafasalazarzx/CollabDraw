@@ -97,8 +97,6 @@
 		3484D61D1483868900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/es.lproj/CDViewController_iPhone.xib; sourceTree = "<absolute>"; };
 		3484D61F1483868900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = /Users/castrosalazar/iOS/AplicacionesMoviles/ProyectoFinal/CollabDrawV2/CollabDrawV2/es.lproj/CDViewController_iPad.xib; sourceTree = "<absolute>"; };
 		3484D6211483969600B69096 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/CDViewController.m; sourceTree = "<group>"; };
-		3484D623148396A900B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = pt; path = pt.lproj/CDViewController.m; sourceTree = "<group>"; };
-		3484D624148396A900B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = es; path = es.lproj/CDViewController.m; sourceTree = "<group>"; };
 		3484D62814839BE000B69096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfopList.strings; sourceTree = "<group>"; };
 		3484D62A14839BF400B69096 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfopList.strings; sourceTree = "<group>"; };
 		3484D62B14839BF400B69096 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfopList.strings; sourceTree = "<group>"; };
@@ -406,8 +404,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3484D6211483969600B69096 /* en */,
-				3484D623148396A900B69096 /* pt */,
-				3484D624148396A900B69096 /* es */,
 			);
 			name = CDViewController.m;
 			sourceTree = "<group>";
